@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="ru" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Строительство Домов В Алматы — Строительство энергоэффективных домов под ключ</title>
+    <meta name="description" content="Строительство современных частных домов и коттеджей из СИП-панелей и каркасных технологий под ключ в Алматы. Гарантия качества, фиксированные сметы, опыт с 2012 года.">
+    
+    <!-- Google Fonts & Tailwind CSS CDN -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        brand: {
+                            50: '#f0fdf4',
+                            100: '#dcfce7',
+                            600: '#16a34a',
+                            700: '#15803d',
+                            800: '#166534',
+                            900: '#14532d',
+                        },
+                        amberGold: '#d97706',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .gradient-overlay {
+            background: linear-gradient(180deg, rgba(15, 23, 42, 0.8) 0%, rgba(15, 23, 42, 0.6) 100%);
+        }
+    </style>
+</head>
+<body class="font-sans text-slate-800 bg-slate-50 antialiased">
+
+    <!-- Header / Navigation Bar -->
+    <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-slate-100 shadow-sm transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                <!-- Logo -->
+                <a href="#" class="flex items-center gap-3 group">
+                    <div class="w-10 h-10 bg-brand-600 rounded-xl flex items-center justify-center text-white shadow-md shadow-brand-600/30 group-hover:bg-brand-700 transition">
+                        <i class="fa-solid me-0 fa-house-chimney text-lg"></i>
+                    </div>
+                    <div>
+                        <span class="text-xl font-bold tracking-tight text-slate-900 block leading-tight">Строительство Домов</span>
+                        <span class="text-xs font-semibold text-brand-600 uppercase tracking-wider block">Алматы & Область</span>
+                    </div>
+                </a>
+
+                <!-- Desktop Navigation -->
+                <nav class="hidden md:flex items-center space-x-8 text-sm font-medium text-slate-600">
+                    <a href="#services" class="hover:text-brand-600 transition">Услуги</a>
+                    <a href="#projects" class="hover:text-brand-600 transition">Проекты и цены</a>
+                    <a href="#why-us" class="hover:text-brand-600 transition">Преимущества</a>
+                    <a href="#reviews" class="hover:text-brand-600 transition">Отзывы</a>
+                    <a href="#contact" class="hover:text-brand-600 transition">Контакты</a>
+                </nav>
+
+                <!-- Header Actions -->
+                <div class="hidden lg:flex items-center gap-4">
+                    <a href="https://wa.me/77756891122" target="_blank" class="flex items-center gap-2 px-4 py-2.5 rounded-xl bg-emerald-50 text-emerald-700 font-medium hover:bg-emerald-100 transition">
+                        <i class="fa-brands fa-whatsapp text-lg"></i>
+                        <span>WhatsApp</span>
+                    </a>
+                    <a href="tel:+77756891122" class="flex items-center gap-2 px-5 py-2.5 rounded-xl bg-brand-600 text-white font-semibold shadow-lg shadow-brand-600/25 hover:bg-brand-700 transition">
+                        <i class="fa-solid fa-phone"></i>
+                        <span>+7 775 689 1122</span>
+                    </a>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <button type="button" onclick="document.getElementById('mobile-menu').classList.toggle('hidden')" class="md:hidden p-2 text-slate-600 hover:text-slate-900 focus:outline-none">
+                    <i class="fa-solid fa-bars text-2xl"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Navigation Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-b border-slate-200 px-4 pt-2 pb-6 space-y-3">
+            <a href="#services" class="block py-2 text-slate-600 font-medium hover:text-brand-600">Услуги</a>
+            <a href="#projects" class="block py-2 text-slate-600 font-medium hover:text-brand-600">Проекты и цены</a>
+            <a href="#why-us" class="block py-2 text-slate-600 font-medium hover:text-brand-600">Преимущества</a>
+            <a href="#reviews" class="block py-2 text-slate-600 font-medium hover:text-brand-600">Отзывы</a>
+            <a href="#contact" class="block py-2 text-slate-600 font-medium hover:text-brand-600">Контакты</a>
+            <div class="pt-4 flex flex-col gap-3">
+                <a href="https://wa.me/77756891122" target="_blank" class="flex items-center justify-center gap-2 w-full py-3 rounded-xl bg-emerald-50 text-emerald-700 font-medium">
+                    <i class="fa-brands fa-whatsapp text-xl"></i>
+                    <span>Написать в WhatsApp</span>
+                </a>
+                <a href="tel:+77756891122" class="flex items-center justify-center gap-2 w-full py-3 rounded-xl bg-brand-600 text-white font-semibold shadow-md">
+                    <i class="fa-solid fa-phone"></i>
+                    <span>Позвонить: +7 775 689 1122</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative bg-slate-900 text-white min-h-[85vh] flex items-center overflow-hidden">
+        <div class="absolute inset-0 z-0">
+            <img src="https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1920&q=80" alt="Современный дом в Алматы" class="w-full h-full object-cover">
+            <div class="absolute inset-0 gradient-overlay"></div>
+        </div>
+
+        <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 lg:py-32">
+            <div class="max-w-3xl">
+                <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/10 backdrop-blur-md border border-white/20 text-emerald-300 text-sm font-medium mb-6">
+                    <i class="fa-solid fa-circle-check"></i>
+                    <span>Построили более 400 домов с 2012 года</span>
+                </div>
+                <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight leading-tight mb-6">
+                    Строительство энергоэффективных домов под ключ в Алматы
+                </h1>
+                <p class="text-lg sm:text-xl text-slate-300 mb-8 leading-relaxed">
+                    Надежные, теплые и современные дома из СИП-панелей и по традиционным технологиям. Оптимальное качество, строгий контроль и точность в сроках.
+                </p>
+
+                <div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-4">
+                    <a href="https://wa.me/77756891122?text=Здравствуйте!%20Хочу%20рассчитать%20стоимость%20строительства%20дома." target="_blank" class="px-8 py-4 rounded-xl bg-emerald-500 hover:bg-emerald-600 text-white font-bold text-lg text-center shadow-xl shadow-emerald-600/30 transition transform hover:-translate-y-0.5 flex items-center justify-center gap-3">
+                        <i class="fa-brands fa-whatsapp text-2xl"></i>
+                        <span>Рассчитать стоимость в WhatsApp</span>
+                    </a>
+                    <a href="tel:+77756891122" class="px-8 py-4 rounded-xl bg-white/10 hover:bg-white/20 backdrop-blur-md border border-white/20 text-white font-bold text-lg text-center transition flex items-center justify-center gap-3">
+                        <i class="fa-solid fa-phone"></i>
+                        <span>+7 775 689 1122</span>
+                    </a>
+                </div>
+
+                <!-- Quick Stats Badge -->
+                <div class="grid grid-cols-3 gap-4 mt-12 pt-8 border-t border-white/10 max-w-xl">
+                    <div>
+                        <div class="text-2xl sm:text-3xl font-extrabold text-white">12+</div>
+                        <div class="text-xs sm:text-sm text-slate-400">Лет опыта на рынке</div>
+                    </div>
+                    <div>
+                        <div class="text-2xl sm:text-3xl font-extrabold text-white">400+</div>
+                        <div class="text-xs sm:text-sm text-slate-400">Готовых проектов</div>
+                    </div>
+                    <div>
+                        <div class="text-2xl sm:text-3xl font-extrabold font-bold text-emerald-400">5.0 ★</div>
+                        <div class="text-xs sm:text-sm text-slate-400">Оценка клиентов</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-xs font-bold text-brand-600 uppercase tracking-wider mb-2">Наши направления</h2>
+                <p class="text-3xl sm:text-4xl font-extrabold text-slate-900">Полный спектр строительных услуг в Алматы</p>
+                <p class="mt-4 text-slate-600 text-lg">Строим с соблюдением строительных норм (СНиП) и учетом сейсмических особенностей региона.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Service 1 -->
+                <div class="p-8 rounded-2xl bg-slate-50 border border-slate-100 hover:shadow-xl hover:border-brand-100 transition duration-300 group">
+                    <div class="w-14 h-14 bg-brand-600 text-white rounded-xl flex items-center justify-center text-2xl mb-6 shadow-md shadow-brand-600/20 group-hover:scale-110 transition">
+                        <i class="fa-solid fa-cubes"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3">Дома из СИП-панелей</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed mb-4">
+                        Быстровозводимые, теплые и энергоэффективные дома. Экономия на отоплении до 50% и возведение за 2-3 месяца.
+                    </p>
+                    <a href="#contact" class="text-brand-600 font-semibold text-sm hover:underline inline-flex items-center gap-1">Узнать подробнее <i class="fa-solid fa-arrow-right text-xs"></i></a>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="p-8 rounded-2xl bg-slate-50 border border-slate-100 hover:shadow-xl hover:border-brand-100 transition duration-300 group">
+                    <div class="w-14 h-14 bg-brand-600 text-white rounded-xl flex items-center justify-center text-2xl mb-6 shadow-md shadow-brand-600/20 group-hover:scale-110 transition">
+                        <i class="fa-solid fa-key"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3">Строительство «Под Ключ»</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed mb-4">
+                        Полный цикл: от проектирования, фундамента и возведения стен до чистовой отделки и подключения коммуникаций.
+                    </p>
+                    <a href="#contact" class="text-brand-600 font-semibold text-sm hover:underline inline-flex items-center gap-1">Узнать подробнее <i class="fa-solid fa-arrow-right text-xs"></i></a>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="p-8 rounded-2xl bg-slate-50 border border-slate-100 hover:shadow-xl hover:border-brand-100 transition duration-300 group">
+                    <div class="w-14 h-14 bg-brand-600 text-white rounded-xl flex items-center justify-center text-2xl mb-6 shadow-md shadow-brand-600/20 group-hover:scale-110 transition">
+                        <i class="fa-solid fa-hammer"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3">Черновая Отделка</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed mb-4">
+                        Возведение несущего каркаса, устройство надежного фундамента и монтаж крыши из металлочерепицы.
+                    </p>
+                    <a href="#contact" class="text-brand-600 font-semibold text-sm hover:underline inline-flex items-center gap-1">Узнать подробнее <i class="fa-solid fa-arrow-right text-xs"></i></a>
+                </div>
+
+                <!-- Service 4 -->
+                <div class="p-8 rounded-2xl bg-slate-50 border border-slate-100 hover:shadow-xl hover:border-brand-100 transition duration-300 group">
+                    <div class="w-14 h-14 bg-brand-600 text-white rounded-xl flex items-center justify-center text-2xl mb-6 shadow-md shadow-brand-600/20 group-hover:scale-110 transition">
+                        <i class="fa-solid fa-grip-vertical"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3">Модульные Дома</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed mb-4">
+                        Современные готовые модульные конструкции для постоянного проживания или дачного отдыха с быстрой установкой.
+                    </p>
+                    <a href="#contact" class="text-brand-600 font-semibold text-sm hover:underline inline-flex items-center gap-1">Узнать подробнее <i class="fa-solid fa-arrow-right text-xs"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Catalog Section -->
+    <section id="projects" class="py-20 bg-slate-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row md:items-end justify-between mb-12">
+                <div>
+                    <h2 class="text-xs font-bold text-brand-600 uppercase tracking-wider mb-2">Каталог Проектов</h2>
+                    <p class="text-3xl sm:text-4xl font-extrabold text-slate-900">Популярные проекты домов</p>
+                </div>
+                <p class="text-slate-600 mt-2 md:mt-0 max-w-md">Фиксированные цены на черновую и чистовую отделку с возможностью индивидуальной перепланировки.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Project 1 -->
+                <div class="bg-white rounded-2xl overflow-hidden border border-slate-200 shadow-sm hover:shadow-lg transition">
+                    <div class="relative h-56 bg-slate-200">
+                        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80" alt="Проект дома А-100" class="w-full h-full object-cover">
+                        <span class="absolute top-4 right-4 bg-slate-900/80 backdrop-blur-md text-white text-xs font-bold px-3 py-1 rounded-full">100 м²</span>
+                    </div>
+                    <div class="p-6">
+                        <div class="flex justify-between items-start mb-2">
+                            <h3 class="text-xl font-bold text-slate-900">Проект "А-100"</h3>
+                            <span class="text-xs bg-brand-50 text-brand-700 font-semibold px-2.5 py-1 rounded-md">2 этажа</span>
+                        </div>
+                        <p class="text-slate-500 text-sm mb-4">3 спальни, просторная гостиная, двускатная крыша из металлочерепицы.</p>
+                        <div class="pt-4 border-t border-slate-100 flex items-center justify-between">
+                            <div>
+                                <span class="text-xs text-slate-400 block">Стоимость от</span>
+                                <span class="text-xl font-extrabold text-brand-600">8 952 350 ₸</span>
+                            </div>
+                            <a href="#contact" class="px-4 py-2 rounded-lg bg-slate-900 hover:bg-brand-600 text-white text-sm font-semibold transition">Заказать</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="bg-white rounded-2xl overflow-hidden border border-slate-200 shadow-sm hover:shadow-lg transition">
+                    <div class="relative h-56 bg-slate-200">
+                        <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=800&q=80" alt="Проект дома А-153Б" class="w-full h-full object-cover">
+                        <span class="absolute top-4 right-4 bg-slate-900/80 backdrop-blur-md text-white text-xs font-bold px-3 py-1 rounded-full">153 м²</span>
+                    </div>
+                    <div class="p-6">
+                        <div class="flex justify-between items-start mb-2">
+                            <h3 class="text-xl font-bold text-slate-900">Проект "А-153Б"</h3>
+                            <span class="text-xs bg-brand-50 text-brand-700 font-semibold px-2.5 py-1 rounded-md">1.5 этажа</span>
+                        </div>
+                        <p class="text-slate-500 text-sm mb-4">4 спальни, панорамные окна, терасса, оптимизированная планировка.</p>
+                        <div class="pt-4 border-t border-slate-100 flex items-center justify-between">
+                            <div>
+                                <span class="text-xs text-slate-400 block">Стоимость от</span>
+                                <span class="text-xl font-extrabold text-brand-600">15 297 965 ₸</span>
+                            </div>
+                            <a href="#contact" class="px-4 py-2 rounded-lg bg-slate-900 hover:bg-brand-600 text-white text-sm font-semibold transition">Заказать</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="bg-white rounded-2xl overflow-hidden border border-slate-200 shadow-sm hover:shadow-lg transition">
+                    <div class="relative h-56 bg-slate-200">
+                        <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=800&q=80" alt="Проект дома Б-205" class="w-full h-full object-cover">
+                        <span class="absolute top-4 right-4 bg-slate-900/80 backdrop-blur-md text-white text-xs font-bold px-3 py-1 rounded-full">205 м²</span>
+                    </div>
+                    <div class="p-6">
+                        <div class="flex justify-between items-start mb-2">
+                            <h3 class="text-xl font-bold text-slate-900">Проект "Б-205"</h3>
+                            <span class="text-xs bg-brand-50 text-brand-700 font-semibold px-2.5 py-1 rounded-md">2 этажа</span>
+                        </div>
+                        <p class="text-slate-500 text-sm mb-4">Премиальный коттедж, вальмовая кровля, гараж на 2 авто, мастер-спальня.</p>
+                        <div class="pt-4 border-t border-slate-100 flex items-center justify-between">
+                            <div>
+                                <span class="text-xs text-slate-400 block">Стоимость от</span>
+                                <span class="text-xl font-extrabold text-brand-600">16 308 570 ₸</span>
+                            </div>
+                            <a href="#contact" class="px-4 py-2 rounded-lg bg-slate-900 hover:bg-brand-600 text-white text-sm font-semibold transition">Заказать</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us / Value Proposition -->
+    <section id="why-us" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h2 class="text-xs font-bold text-brand-600 uppercase tracking-wider mb-2">Надежность и качество</h2>
+                    <h3 class="text-3xl sm:text-4xl font-extrabold text-slate-900 mb-6 leading-tight">Почему жители Алматы выбирают нашу компанию?</h3>
+                    <p class="text-slate-600 mb-8 leading-relaxed">
+                        Строительство собственного дома — это важное решение. Мы берем на себя все процессы и сложности, обеспечивая полную прозрачность и высокое качество на каждом этапе.
+                    </p>
+
+                    <div class="space-y-6">
+                        <div class="flex gap-4">
+                            <div class="w-12 h-12 bg-brand-50 text-brand-600 rounded-xl flex items-center justify-center shrink-0 text-xl">
+                                <i class="fa-solid fa-shield-halved"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-lg font-bold text-slate-900 mb-1">Официальная гарантия и договор</h4>
+                                <p class="text-slate-600 text-sm">Фиксированная сметка без скрытых платежей и гарантия на конструктивные элементы.</p>
+                            </div>
+                        </div>
+
+                        <div class="flex gap-4">
+                            <div class="w-12 h-12 bg-brand-50 text-brand-600 rounded-xl flex items-center justify-center shrink-0 text-xl">
+                                <i class="fa-solid fa-[#16a34a] fa-bolt"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-lg font-bold text-slate-900 mb-1">Высокая энергоэффективность</h4>
+                                <p class="text-slate-600 text-sm">Наши дома из СИП-панелей отлично сохраняют тепло зимой и прохладу жарким летом в Алматы.</p>
+                            </div>
+                        </div>
+
+                        <div class="flex gap-4">
+                            <div class="w-12 h-12 bg-brand-50 text-brand-600 rounded-xl flex items-center justify-center shrink-0 text-xl">
+                                <i class="fa-solid fa-user-gear"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-lg font-bold text-slate-900 mb-1">Опытные бригады и технадзор</h4>
+                                <p class="text-slate-600 text-sm">Все работы выполняются квалифицированными строителями с опытом работы от 8 лет.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="relative">
+                    <div class="relative rounded-3xl overflow-hidden shadow-2xl">
+                        <img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1000&q=80" alt="Процесс строительства дома" class="w-full h-auto">
+                    </div>
+                    <!-- Overlay Info Card -->
+                    <div class="absolute -bottom-6 -left-6 bg-slate-900 text-white p-6 rounded-2xl shadow-xl hidden sm:block max-w-xs">
+                        <div class="flex items-center gap-3 mb-2">
+                            <i class="fa-solid fa-award text-amberGold text-2xl"></i>
+                            <span class="font-bold text-lg">Высокое качество</span>
+                        </div>
+                        <p class="text-xs text-slate-300">«Используем сертифицированные OSB-3 плиты и экологичный пенополистирол.»</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials / Reviews Section -->
+    <section id="reviews" class="py-20 bg-slate-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-xs font-bold text-brand-600 uppercase tracking-wider mb-2">Отзывы Клиентов</h2>
+                <p class="text-3xl sm:text-4xl font-extrabold text-slate-900">Что говорят о нашей работе</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Review 1 -->
+                <div class="bg-white p-8 rounded-2xl border border-slate-200 shadow-sm flex flex-col justify-between">
+                    <div>
+                        <div class="flex text-amberGold gap-1 mb-4">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="text-slate-600 text-sm leading-relaxed mb-6 italic">
+                            «Да, по цене вышло чуть выше средних бригад по объявлению, но качество действительно отличное. Завершили все ремонтные и строительные работы точно в срок. Очень доволен результатом!»
+                        </p>
+                    </div>
+                    <div class="flex items-center gap-3 pt-4 border-t border-slate-100">
+                        <div class="w-10 h-10 rounded-full bg-brand-100 text-brand-700 font-bold flex items-center justify-center">
+                            АА
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-slate-900 text-sm">Ахмет Айткулов</h4>
+                            <span class="text-xs text-slate-400">Клиент (Алматы)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Review 2 -->
+                <div class="bg-white p-8 rounded-2xl border border-slate-200 shadow-sm flex flex-col justify-between">
+                    <div>
+                        <div class="flex text-amberGold gap-1 mb-4">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="text-slate-600 text-sm leading-relaxed mb-6 italic">
+                            «Заказывали дом по проекту А-117 из СИП-панелей. Построили очень быстро! В доме тепло даже в самые сильные зимние морозы. Спасибо команде за профессионализм!»
+                        </p>
+                    </div>
+                    <div class="flex items-center gap-3 pt-4 border-t border-slate-100">
+                        <div class="w-10 h-10 rounded-full bg-slate-200 text-slate-700 font-bold flex items-center justify-center">
+                            ЕБ
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-slate-900 text-sm">Ерлан Бектуров</h4>
+                            <span class="text-xs text-slate-400">Клиент (Алматинская обл.)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Review 3 -->
+                <div class="bg-white p-8 rounded-2xl border border-slate-200 shadow-sm flex flex-col justify-between">
+                    <div>
+                        <div class="flex text-amberGold gap-1 mb-4">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="text-slate-600 text-sm leading-relaxed mb-6 italic">
+                            «Отличная строительная компания. Все прозрачно: составленный бюджет не изменился ни на тенге к концу стройки. Рекомендую всем, кто ищет надежного подрядчика.»
+                        </p>
+                    </div>
+                    <div class="flex items-center gap-3 pt-4 border-t border-slate-100">
+                        <div class="w-10 h-10 rounded-full bg-brand-100 text-brand-700 font-bold flex items-center justify-center">
+                            ДС
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-slate-900 text-sm">Динара Сатпаева</h4>
+                            <span class="text-xs text-slate-400">Клиент (Алматы)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact / Booking Section -->
+    <section id="contact" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="bg-slate-900 rounded-3xl overflow-hidden shadow-2xl grid grid-cols-1 lg:grid-cols-12">
+                
+                <!-- Contact Info Column -->
+                <div class="lg:col-span-5 p-8 sm:p-12 bg-slate-800 text-white flex flex-col justify-between">
+                    <div>
+                        <h2 class="text-xs font-bold text-brand-600 uppercase tracking-wider mb-2">Контакты</h2>
+                        <h3 class="text-3xl font-extrabold mb-6">Свяжитесь с нами для расчета стоимости</h3>
+                        <p class="text-slate-300 text-sm leading-relaxed mb-8">
+                            Оставьте заявку или позвоните нам прямо сейчас. Наши инженеры предоставят бесплатную консультацию и предварительный расчет проекта.
+                        </p>
+
+                        <div class="space-y-6">
+                            <div class="flex items-start gap-4">
+                                <div class="w-10 h-10 rounded-xl bg-slate-700 flex items-center justify-center text-brand-600 shrink-0">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                </div>
+                                <div>
+                                    <span class="text-xs text-slate-400 block">Адрес офиса</span>
+                                    <span class="text-sm font-medium">1 микрорайон 73б, Алматы 050062, Казахстан</span>
+                                </div>
+                            </div>
+
+                            <div class="flex items-start gap-4">
+                                <div class="w-10 h-10 rounded-xl bg-slate-700 flex items-center justify-center text-brand-600 shrink-0">
+                                    <i class="fa-solid fa-phone"></i>
+                                </div>
+                                <div>
+                                    <span class="text-xs text-slate-400 block">Телефон</span>
+                                    <a href="tel:+77756891122" class="text-sm font-bold text-white hover:text-brand-600 transition">+7 775 689 1122</a>
+                                </div>
+                            </div>
+
+                            <div class="flex items-start gap-4">
+                                <div class="w-10 h-10 rounded-xl bg-slate-700 flex items-center justify-center text-emerald-400 shrink-0">
+                                    <i class="fa-brands fa-whatsapp"></i>
+                                </div>
+                                <div>
+                                    <span class="text-xs text-slate-400 block">WhatsApp Консультация</span>
+                                    <a href="https://wa.me/77756891122" target="_blank" class="text-sm font-bold text-emerald-400 hover:underline">Написать инженеру</a>
+                                </div>
+                            </div>
+
+                            <div class="flex items-start gap-4">
+                                <div class="w-10 h-10 rounded-xl bg-slate-700 flex items-center justify-center text-brand-600 shrink-0">
+                                    <i class="fa-solid fa-clock"></i>
+                                </div>
+                                <div>
+                                    <span class="text-xs text-slate-400 block">Режим работы</span>
+                                    <span class="text-sm font-medium">Пн - Сб: 09:00 – 19:30</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Form Column -->
+                <div class="lg:col-span-7 p-8 sm:p-12 bg-white">
+                    <h3 class="text-2xl font-bold text-slate-900 mb-2">Получить бесплатный расчет</h3>
+                    <p class="text-slate-500 text-sm mb-6">Заполните форму, и мы перезвоним вам в течение 15 минут.</p>
+
+                    <form onsubmit="event.preventDefault(); alert('Спасибо за заявку! Мы свяжемся с вами в ближайшее время.');" class="space-y-4">
+                        <div>
+                            <label class="block text-xs font-semibold text-slate-700 uppercase mb-1">Ваше имя</label>
+                            <input type="text" required placeholder="Иван Иванов" class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:outline-none focus:ring-2 focus:ring-brand-600/20 focus:border-brand-600 text-sm">
+                        </div>
+
+                        <div>
+                            <label class="block text-xs font-semibold text-slate-700 uppercase mb-1">Номер телефона</label>
+                            <input type="tel" required placeholder="+7 (700) 000-00-00" class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:outline-none focus:ring-2 focus:ring-brand-600/20 focus:border-brand-600 text-sm">
+                        </div>
+
+                        <div>
+                            <label class="block text-xs font-semibold text-slate-700 uppercase mb-1">Желаемая площадь дома (м²)</label>
+                            <select class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:outline-none focus:ring-2 focus:ring-brand-600/20 focus:border-brand-600 text-sm text-slate-600">
+                                <option>До 100 м²</option>
+                                <option>100 - 150 м²</option>
+                                <option>150 - 250 м²</option>
+                                <option>Более 250 м²</option>
+                            </select>
+                        </div>
+
+                        <div>
+                            <label class="block text-xs font-semibold text-slate-700 uppercase mb-1">Комментарий или вопросы</label>
+                            <textarea rows="3" placeholder="Укажите детали вашего участка или проект..." class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:outline-none focus:ring-2 focus:ring-brand-600/20 focus:border-brand-600 text-sm"></textarea>
+                        </div>
+
+                        <button type="submit" class="w-full py-4 rounded-xl bg-brand-600 hover:bg-brand-700 text-white font-bold text-base shadow-lg shadow-brand-600/30 transition">
+                            Отправить заявку на расчет
+                        </button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-950 text-slate-400 py-12 border-t border-slate-900">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
+                <div class="md:col-span-2">
+                    <div class="flex items-center gap-3 mb-4">
+                        <div class="w-8 h-8 bg-brand-600 rounded-lg flex items-center justify-center text-white">
+                            <i class="fa-solid fa-house-chimney text-sm"></i>
+                        </div>
+                        <span class="text-lg font-bold text-white">Строительство Домов В Алматы</span>
+                    </div>
+                    <p class="text-sm text-slate-400 max-w-sm mb-4">
+                        Профессиональное строительство коттеджей, загородных домов и объектов из СИП-панелей под ключ в Алматы и Алматинской области.
+                    </p>
+                    <p class="text-xs text-slate-500">© 2012-2026 Строительство Домов В Алматы. Все права защищены.</p>
+                </div>
+
+                <div>
+                    <h4 class="text-sm font-semibold text-white uppercase tracking-wider mb-4">Быстрые ссылки</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="#services" class="hover:text-white transition">Услуги</a></li>
+                        <li><a href="#projects" class="hover:text-white transition">Каталог проектов</a></li>
+                        <li><a href="#why-us" class="hover:text-white transition">О компании</a></li>
+                        <li><a href="#reviews" class="hover:text-white transition">Отзывы клиентов</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="text-sm font-semibold text-white uppercase tracking-wider mb-4">Мы в соцсетях</h4>
+                    <div class="flex space-x-4">
+                        <a href="https://wa.me/77756891122" target="_blank" class="w-10 h-10 rounded-full bg-slate-900 flex items-center justify-center hover:bg-emerald-600 hover:text-white transition">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 rounded-full bg-slate-900 flex items-center justify-center hover:bg-pink-600 hover:text-white transition">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 rounded-full bg-slate-900 flex items-center justify-center hover:bg-blue-600 hover:text-white transition">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
